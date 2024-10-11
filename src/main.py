@@ -8,7 +8,7 @@ logger = getLogger(__name__)
 
 
 def hello() -> str:
-    logger.info(f"Hello from {settings.get('app_name')}")
+    logger.info(f"Salam {settings.get('app_name')}")
     return "Hello"
 
 
